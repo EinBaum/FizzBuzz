@@ -34,3 +34,5 @@ will produce the following output:
 1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz
 1 2 Fizz
 ```
+
+Each number is separated with a space. A newline is written after the last number.
