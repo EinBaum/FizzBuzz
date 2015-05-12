@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
 		}
 		else
 		{
-			fprintf(stderr, "Error: Failed to open file '%s'\n", argv[argc]);
+			fprintf(stderr, "Error: Failed to open file '%s'", argv[argc]);
 		}
 	}
 	
