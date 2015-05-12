@@ -12,6 +12,6 @@ FizzBuzz 100
 
 Requirements: Any C compiler, make
 
-Enter the project directory and type `make` to create the executable ´fpl´.
+Enter the project directory and type `make` to create the executable `fpl`.
 Running the program without arguments will read from the standard input.
 Alternatively you can specify one filename as an argument.
