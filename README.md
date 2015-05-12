@@ -23,13 +23,13 @@ Alternatively you can specify filenames as arguments (each will be interpreted).
 "FizzBuzz"<Space><Unsigned Integer><Optional Linebreak>
 `
 
-Example program:
+Example program: 
 `
-FizzBuzz 10
-FizzBuzz 3
+FizzBuzz 10 
+FizzBuzz 3 
 `
-will produce the following output:
+will produce the following output: 
 `
-1 2 Fizz 4 Buzz 5 Fizz 7 8 Fizz 9 Buzz
-1 2 Fizz
+1 2 Fizz 4 Buzz 5 Fizz 7 8 Fizz 9 Buzz 
+1 2 Fizz 
 `
