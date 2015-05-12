@@ -21,6 +21,7 @@ Alternatively you can specify filenames as arguments (each will be interpreted).
 
 ```
 "FizzBuzz"<Space><Unsigned Integer><Optional Linebreak>
+<Same as above again>
 ```
 
 Example program:
