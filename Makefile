@@ -18,5 +18,5 @@ $(BIN):		$(OBJS)
 clean:
 		rm -f *~ $(OBJS)
 
-dist-clean:	clean
+distclean:	clean
 		rm -f $(BIN)
