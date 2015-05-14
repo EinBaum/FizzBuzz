@@ -26,7 +26,7 @@ Alternatively you can specify filenames as arguments (each will be interpreted).
 
 Example program:
 ```
-FizzBuzz 10
+FizzBuzz 15
 FizzBuzz 3
 ```
 will produce the following output:
