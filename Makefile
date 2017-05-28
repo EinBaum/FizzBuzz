@@ -22,7 +22,7 @@ distclean:	clean
 		rm -f $(BIN)
 
 install:
-	cp $(BIN) /usr/local/$(BIN)
+	cp $(BIN) /usr/local/bin/$(BIN)
 
 uninstall:
-	-rm /usr/local/$(BIN)
+	-rm /usr/local/bin/$(BIN)
