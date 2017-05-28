@@ -5,7 +5,7 @@ If an interviewer ever asks you about writing a FizzBuzz program in a
 language of your choice, give him this piece of code:
 
 ```
-FizzBuzz 100
+100
 ```
 
 ## Installation
@@ -20,14 +20,14 @@ Alternatively you can specify filenames as arguments (each will be interpreted).
 ## Syntax
 
 ```
-"FizzBuzz"<Space><Unsigned Integer><Optional Linebreak>
+<Unsigned Integer><Optional Linebreak>
 <Same as above again>
 ```
 
 Example program:
 ```
-FizzBuzz 15
-FizzBuzz 3
+15
+3
 ```
 will produce the following output:
 ```

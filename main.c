@@ -14,7 +14,7 @@ void fizzbuzz(FILE *fout, unsigned int n)
 			fputs("Buzz", fout);
 		else
 			fprintf(fout, "%u", i);
-			
+
 		fputc(i == n ? '\n' : ' ', fout);
 	}
 }
@@ -23,7 +23,7 @@ void interpreter(FILE *f)
 {
 	unsigned int n;
 
-	while (fscanf(f, "FizzBuzz %u%*c", &n) == 1)
+	while (fscanf(f, "%u%*c", &n) == 1)
 	{
 		fizzbuzz(stdout, n);
 	}
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 		interpreter(stdin);
 		return 0;
 	}
-	
+
 	while (--argc > 0)
 	{
 		if ((f = fopen(argv[argc], "r")) != NULL)
@@ -50,6 +50,6 @@ int main(int argc, char *argv[])
 			fprintf(stderr, "Error: Failed to open file '%s'", argv[argc]);
 		}
 	}
-	
+
 	return 0;
 }

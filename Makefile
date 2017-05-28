@@ -5,7 +5,7 @@ SRCS = main.c
 OBJS = $(patsubst %.c,%.o,$(SRCS))
 CCFLAGS = -std=c89 -Wall -Wextra -pedantic -O2
 
-.PHONY:		all run clean dist-clean
+.PHONY:		all run clean distclean install uninstall
 
 all:		$(BIN)
 
@@ -20,3 +20,9 @@ clean:
 
 distclean:	clean
 		rm -f $(BIN)
+
+install:
+	cp $(BIN) /usr/local/$(BIN)
+
+uninstall:
+	-rm /usr/local/$(BIN)
